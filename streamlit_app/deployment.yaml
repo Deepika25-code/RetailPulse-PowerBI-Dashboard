@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: retailpulse-dashboard
+
+spec:
+  replicas: 1
+
+  selector:
+    matchLabels:
+      app: retailpulse
+
+  template:
+    metadata:
+      labels:
+        app: retailpulse
+
+    spec:
+      containers:
+      - name: retailpulse-container
+        image: retailpulse-dashboard
+        ports:
+        - containerPort: 8501
