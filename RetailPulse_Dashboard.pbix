@@ -1,1 +1,40 @@
+# Power BI Dashboard Explanation
 
+The Power BI dashboard was developed to visualize retail business insights interactively.
+
+## Dashboard Features
+
+### KPI Cards
+- Total Revenue
+- Total Orders
+- Total Customers
+- Total Quantity
+- Average Order Value
+
+### Charts Used
+- Revenue by Country (Bar Chart)
+- Monthly Sales Trend (Line Chart)
+- Top Product Contribution (Donut Chart)
+
+### Filters
+Interactive slicers were used for:
+- Month
+- Country
+- Product Description
+- Customer
+
+### Insights Generated
+- Identified top-performing countries
+- Analyzed monthly sales trends
+- Found highest revenue-generating products
+- Tracked customer purchasing behavior
+
+---
+
+# Business Impact
+
+The dashboard helps business users:
+- Monitor sales performance
+- Improve inventory management
+- Understand customer behavior
+- Make data-driven business decisions
